@@ -1,7 +1,9 @@
 version: '3'
 services: 
-    aws-cli-sample:
-        image: 'backslash112/aws-cli'
-        stdin_open: true
-        tty: true
+  aws-cli-sample:
+    image: 'backslash112/aws-cli'
+    stdin_open: true
+    tty: true
+    volumes:
+     - ./aws-conf/:/root/.aws/
 
