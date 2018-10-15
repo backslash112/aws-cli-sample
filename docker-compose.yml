@@ -1,0 +1,6 @@
+version: '3'
+services: 
+    aws-cli-sample:
+        image: 'backslash112/aws-cli:latest'
+        tty: true
+
